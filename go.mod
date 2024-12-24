@@ -1,4 +1,4 @@
-module mysite
+module zxcunit.ru
 
 go 1.22
 
