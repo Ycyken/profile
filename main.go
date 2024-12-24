@@ -84,14 +84,14 @@ func main() {
 	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("template/assets"))))
 	//
 	//server := &http.Server{
-	//	Addr: ":80",
+	//	Addr: ":443",
 	//	TLSConfig: &tls.Config{
 	//		InsecureSkipVerify: false,
 	//		MinVersion:         tls.VersionTLS12,
 	//	},
 	//}
 
-	log.Println("Сервер запущен на https://localhost:80")
+	log.Println("Сервер запущен на https://localhost:443")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 	//log.Fatal(server.ListenAndServeTLS("cert.pem", "key.pem"))
 }
