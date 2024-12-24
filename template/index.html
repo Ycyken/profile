@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Gleb Nasretdinov Personal Site</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <!-- Блок авторизации (кнопки) -->
+    <div class="auth-container">
+      <h1>Авторизация</h1>
+      <div class="auth-buttons">
+        <!-- Кнопка Google с иконкой -->
+        <button class="auth-btn google-btn" onclick="window.location.href='/auth/google'">
+          <i class="fab fa-google"></i>
+        </button>
+        <!-- Кнопка GitHub с иконкой -->
+        <button class="auth-btn github-btn" onclick="window.location.href='/auth/github'">
+          <i class="fab fa-github"></i>
+        </button>
+      </div>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#skills"><i class="bi bi-file-earmark-text navicon"></i><span>Skills</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-file-binary navicon"></i><span>Projects</span></a></li>
+        <li><a href="#comments"><i class="bi bi-text-center navicon"></i><span>Comments</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="">
+
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Глеб Насретдинов</h2>
+            <p><span class="typed" data-typed-items="Программный инженер, Талант, Чемпик, WW Keep Going">Программный инженер</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="https://t.me/zxcunit"><i class="bi bi-telegram"></i></a>
+              <a href="https://github.com/ycyken"><i class="bi bi-github"></i></a>
+              <a href="mailto:gleb.nasretdinov@proton.me"><i class="bi bi-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Обо мне</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-9 content">
+            <h2>Software Engineer</h2>
+            <p class="fst-italic py-3">
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>День рождения:</strong> <span>4 Мая 2005</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Образование: </strong> <span>Матмех СПбГУ, Программная инженерия</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Город:</strong> <span>Санкт-Петербург, Россия</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Телеграм:</strong> <span>@zxcunit</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>gleb.nasretdinov@proton.me</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Навыки</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Golang & Backend</span> <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Kotlin & Jetpack Compose</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>OCaml & Functional Programming</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Rust</span> <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>HTML & CSS</span> <i class="val">40%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Projects Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Проекты</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/graphs.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Graph Visualizer</h4>
+                <p>Приложение для визуализации алгоритмов на графах</p>
+                <a href="assets/img/portfolio/graphs.png" title="App 1" data-gallery="portfolio-gallery-app"
+                   class="glightbox preview-link"></a>
+                <a href="https://github.com/spbu-coding-2023/graphs-graphs-8" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/fsharp.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>F# Interpreter</h4>
+                <p>Интерпретатор языка F# с поддержкой активных паттернов, написанный на OCaml</p>
+                <a href="assets/img/portfolio/fsharp.png" title="App 1" data-gallery="portfolio-gallery-app"
+                   class="glightbox preview-link"></a>
+                <a href="http://github.com/Ycyken/fp2024/" title="More Details"
+                   class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/portfolio/ghidra.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Ghidra Recompilation</h4>
+                <p>Утилита для автоматической рекомпиляции декомпилированного гидрой кода</p>
+                <a href="assets/img/portfolio/ghidra.png" title="App 1" data-gallery="portfolio-gallery-app"
+                   class="glightbox preview-link"></a>
+                <a href="https://github.com/ycyken/ghidra-recompilation/" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+
+        </div><!-- End Portfolio Container -->
+
+      </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section id="comments" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Comments</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+
+      <div id="comment-form">
+        <h3>Оставьте комментарий:</h3>
+        <textarea id="comment-text" rows="4" placeholder="Введите ваш комментарий..."></textarea>
+        <button id="submit-comment" onclick="submitComment()">Отправить</button>
+      </div>
+
+      <div id="comments-list"></div>
+
+      <button id="load-more" onclick="loadMoreComments()">Загрузить больше</button>
+    </section>
+
+    <script>
+      let offset = 0;
+
+      function formatDate(isoDate) {
+        const options = {
+          day: '2-digit',
+          month: '2-digit',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false,
+        };
+        const date = new Date(isoDate);
+        return date.toLocaleString('ru-RU', options);
+      }
+
+      function loadComments() {
+        fetch(`/loadComments?offset=${offset}`)
+                .then(response => response.json())
+                .then(comments => {
+                  const commentsList = document.getElementById('comments-list');
+                  comments.forEach(comment => {
+                    const commentElement = document.createElement('div');
+                    commentElement.classList.add('comment');
+                    const formattedDate = formatDate(comment.created_at);
+                    commentElement.innerHTML = `
+            <p><strong>${comment.email}</strong> (${formattedDate}):</p>
+            <p>${comment.comment}</p>
+          `;
+                    commentsList.appendChild(commentElement);
+                  });
+
+                  offset += comments.length;
+
+                  if (comments.length < 10) {
+                    document.getElementById('load-more').style.display = 'none';
+                  }
+                })
+                .catch(error => console.error('Ошибка загрузки комментариев:', error));
+      }
+
+      document.addEventListener('DOMContentLoaded', loadComments);
+
+      function loadMoreComments() {
+        loadComments();
+      }
+    </script>
+
+    <script>
+      function submitComment() {
+        const commentText = document.getElementById('comment-text').value;
+        if (!commentText.trim()) {
+          alert('Пожалуйста, введите комментарий');
+          return;
+        }
+
+        const emailCookie = getCookie('email');
+        const providerCookie = getCookie('provider');
+
+        if (!emailCookie || !providerCookie) {
+          // Если куки нет, перенаправляем на страницу авторизации
+          window.location.href = '/auth/google';
+          return;
+        }
+
+        fetch('/submitComment', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: `email=${encodeURIComponent(emailCookie)}&comment=${encodeURIComponent(commentText)}`
+        })
+                .then(response => {
+                  if (response.ok) {
+                    alert('Комментарий успешно добавлен!');
+                    document.getElementById('comment-text').value = ''; // очищаем поле
+                    loadComments(); // перезагружаем комментарии
+                  } else {
+                    alert('Произошла ошибка при отправке комментария.');
+                  }
+                })
+                .catch(error => console.error('Ошибка:', error));
+      }
+
+      function getCookie(name) {
+        const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        return match ? match[2] : null;
+      }
+
+    </script>
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://t.me/zxcunit"><i class="bi bi-telegram"></i></a>
+        <a href="https://github.com/ycyken"><i class="bi bi-github"></i></a>
+        <a href="mailto:gleb.nasretdinov@proton.me"><i class="bi bi-envelope"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">zxcunit</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distribuited by <a href="https://themewagon.com">ThemeWagon</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
