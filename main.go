@@ -41,7 +41,7 @@ var (
 
 func init() {
 	var err error
-	db, err = sql.Open("sqlite3", "./users.db")
+	db, err = sql.Open("sqlite3", "./zxcunit.db")
 	if err != nil {
 		log.Fatal(err)
 	}
