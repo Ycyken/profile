@@ -2,3 +2,5 @@
 vendor/
 zxcunit.ru
 zxcunit.db
+key.pem
+cert.pem
